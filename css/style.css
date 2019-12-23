@@ -177,11 +177,10 @@ a{
     transform: translateX(-50%);
     color: #fff;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(255, 255, 255, 0.9);
 	margin: 60px 0px 60px 0px;
     padding: 20px 80px;
     line-height: 50px;
-    background: #ffffff;
   	border: 10px solid #f9f9f9;
 }
 
@@ -194,11 +193,10 @@ a{
     transform: translateX(-50%);
     color: #fff;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(255, 255, 255, 0.9);
 	margin: 60px 0px 60px 0px;
     padding: 20px 200px;
     line-height: 50px;
-    background: #ffffff;
   	border: 10px solid #f9f9f9;
 }
 
@@ -213,11 +211,10 @@ a{
 		    transform: translateX(-50%);
 		    color: #fff;
 		    text-align: center;
-		    background-color: rgba(0, 0, 0, 0.35);
+		    background-color: rgba(255, 255, 255, 0.9);
 			margin: 20px 0px 20px 0px;
 		    padding: 20px 20px;
 		    line-height: 50px;
-		    background: #ffffff;
 		  	border: 10px solid #f9f9f9;
 		}
 	}
