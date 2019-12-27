@@ -8,8 +8,15 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/forms.css" rel="stylesheet" type="text/css" />
 <link href="css/buttons.css" rel="stylesheet" type="text/css" />
-<!--font-awesome-->
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+<link href="css/isotope.css" rel="stylesheet" type="text/css" />
+<script src="js/isotope.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+
 
 </head>
 <body>
@@ -45,72 +52,228 @@
 
    
         <div class="content-works">
-            <ul>
 
-                <li>
-                <div class="works-overlay">
-                    <a href="002.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img02.jpg"></div>
-                </li>
+            <div class="filter">
+              <a href="#" data-filter="*" class="current">All</a>
+              <a href="#" data-filter=".event">Event</a>
+              <a href="#" data-filter=".edm">Edm</a>
+              <a href="#" data-filter=".web">Web</a> 
+              <a href="#" data-filter=".bn">Banner</a>
+            </div>
 
-                <li>
-                <div class="works-overlay">
-                    <a href="008.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img08.jpg"></div>
-                </li>
+                <div class="grid">
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm01.jpg"></a>
+                    </div>
 
-                <li>
-                <div class="works-overlay">
-                    <a href="009.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img09.jpg"></div>
-                </li>
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm02.jpg"></a>
+                    </div>                   
 
-                <li>
-                <div class="works-overlay">
-                    <a href="003.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img03.jpg"></div>
-                </li>
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm03.jpg"></a>
+                    </div>
 
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm04.jpg"></a>
+                    </div>                   
 
-                <li>
-                <div class="works-overlay">
-                    <a href="001.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img01.jpg"></div>
-                </li>
-
-                <li>
-                <div class="works-overlay">
-                    <a href="010.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img10.jpg"></div>
-                </li>
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm05.jpg"></a>
+                    </div>      
 
 
-                <li>
-                <div class="works-overlay">
-                    <a href="004.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img04.jpg"></div>
-                </li>
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event01.jpg"></a>
+                    </div>
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event02.jpg"></a>
+                    </div>   
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event03.jpg"></a>
+                    </div>
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event04.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event05.jpg"></a>
+                    </div>      
 
 
-                <li>
-                <div class="works-overlay">
-                    <a href="005.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img05.jpg"></div>
-                </li>   
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm06.jpg"></a>
+                    </div>
 
-                <li>
-                <div class="works-overlay">
-                    <a href="006.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img06.jpg"></div>
-                </li> 
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm07.jpg"></a>
+                    </div>                   
 
-                 <li>
-                <div class="works-overlay">
-                    <a href="007.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img07.jpg"></div>
-                </li>
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm08.jpg"></a>
+                    </div>
 
-                 <li>
-                <div class="works-overlay">
-                    <a href="011.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img11.jpg"></div>
-                </li>
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm09.jpg"></a>
+                    </div>                   
 
-                <li>
-                <div class="works-overlay">
-                    <a href="012.html" target="_self"><div class="works-item"><i class="fas fa-link"></i></div></a><img src="images/img12.jpg"></div>
-                </li>
-             
-            </ul>
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm10.jpg"></a>
+                    </div> 
+
+                     <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event06.jpg"></a>
+                    </div>
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event07.jpg"></a>
+                    </div>   
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event08.jpg"></a>
+                    </div>
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event09.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event10.jpg"></a>
+                    </div>    
+
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm11.jpg"></a>
+                    </div>                   
+
+                    <div class="grid-item edm">
+                        <a class="fancybox" href="images/edm/edm12.jpg"></a>
+                    </div>                                          
+
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event11.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event12.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event13.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event14.jpg"></a>
+                    </div> 
+
+                     <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event15.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item event">
+                        <a class="fancybox" href="images/event/event16.jpg"></a>
+                    </div>                    
+
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn01.jpg"></a>
+                    </div>    
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn02.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn03.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn04.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn05.jpg"></a>
+                    </div>                     
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn06.jpg"></a>
+                    </div>    
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn07.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn08.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn09.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn10.jpg"></a>
+                    </div>    
+
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn11.jpg"></a>
+                    </div>    
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn12.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn13.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn14.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn15.jpg"></a>
+                    </div>                     
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn16.jpg"></a>
+                    </div>    
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn17.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn18.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn19.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item bn">
+                        <a class="fancybox" href="images/bn/bn20.jpg"></a>
+                    </div>  
+
+                     <div class="grid-item web">
+                        <a class="fancybox" href="images/web/web01.jpg"></a>
+                    </div> 
+
+                    <div class="grid-item web">
+                        <a class="fancybox" href="images/web/web02.jpg"></a>
+                    </div>      
+
+                     <div class="grid-item web">
+                        <a class="fancybox" href="images/web/web03.jpg"></a>
+                    </div>      
+
+                      <div class="grid-item web">
+                        <a class="fancybox" href="images/web/web04.jpg"></a>
+                    </div>                                                                       
         </div>
 
 
@@ -120,6 +283,46 @@
     </div>
     
 </div>
+
+<script>
+$(function() {
+  // Masonry Grid
+  $('.grid').isotope({
+    filter: '*',
+    // itemSelector: '.grid-item',
+    masonry: {
+      columnWidth: 250,
+      fitWidth: true, // When enabled, you can center the container with CSS.
+      gutter: 20
+    }
+    // layoutMode: 'fitRows'
+  });
+
+  $('.filter a').click(function(){
+    $('.filter .current').removeClass('current');
+    $(this).addClass('current');
+
+    var selector = $(this).data('filter');
+    $('.grid').isotope({
+      filter: selector
+    });
+    return false;
+  });
+
+});
+
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.fancybox').fancybox({
+    beforeShow : function(){
+    this.title =  $(this.element).data("caption");
+    }
+    });
+}); // ready
+</script>
 
 
 </body>

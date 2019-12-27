@@ -224,8 +224,7 @@ a{
 	max-width: 100%;
 	height: auto;
 	background-color: #fff;	
-	display: table;
-	margin:80px auto;
+	margin:50px auto;	
 }
 
 .content-about{
@@ -508,6 +507,7 @@ a{
 	font-size: 14px;
 	color: #9a601b;
 	display: table;
+	line-height: 24px;
 }
 
 
@@ -604,7 +604,6 @@ a.pure-button-disabled .cancel{
 	text-align: center;
     box-sizing: border-box;
     position: absolute;
-    bottom: -1;
     z-index: 99;
     clear: both;
 }
