@@ -15,6 +15,19 @@ a{
 
 }
 
+.fancybox-caption{
+	background-color: rgba(0,0,0,0.8);
+	bottom:0;
+	padding:25px 44px;
+}
+
+	 @media(max-width: 768px) {
+
+		.fancybox-caption{
+			background-color: rgba(0,0,0,0.8);
+			height: 20px;
+		}
+	}
 
 .header{
 	max-width: 1200px;
@@ -775,5 +788,23 @@ a.pure-button-disabled .cancel{
 			border-radius: 5px;
 			line-height: 22px;
 		}
+
+		.footer{
+			width: 100%;
+			height: 40px;
+			background-color: #141414;
+			line-height: 40px;
+			margin: 0 auto;
+			color: #FFF;
+			font-size: 14px;
+			text-align: center;
+		    box-sizing: border-box;
+		    position: absolute;
+		    z-index: 99;
+		    clear: both;
+		    float: left;
+		}
 		 	
-	 }
+	 }		
+
+
