@@ -508,6 +508,11 @@ a{
     font-weight: bold;
 }
 
+.content-about .exper li a{
+	text-decoration: none;
+	color: #eb65a2;
+}
+
 .content-about .exper li p {
 	font-weight: normal;
 	font-size: 14px;
@@ -520,7 +525,7 @@ a{
 	color: #9a601b;
 	display: table;
 	line-height: 24px;
-	padding-right: 20px;
+	padding-right: 40px;
 	word-break: normal;
 }
 
