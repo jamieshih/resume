@@ -146,6 +146,20 @@ a.btn-selected {
     transition: .3s;
 }
 
+.btn-more{
+    border:1px solid #141414;
+    background-color: #fff;
+    color: #141414;
+    font-size: 13px;
+}
+
+.btn-more:hover{
+    border:1px solid #141414;
+    background-color: #fff;
+    color: #141414;
+    transition: .3s;
+}
+
 .btn-back{
     background-color: #141414;
     color: #fff;
