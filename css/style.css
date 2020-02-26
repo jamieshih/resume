@@ -180,6 +180,7 @@ a{
 	line-height: 26px;
 }
 
+
 .banner_works .desc{
 	display: inline-block;
     position: relative;
@@ -210,6 +211,18 @@ a{
     padding: 20px 200px;
     line-height: 50px;
   	border: 10px solid #f9f9f9;
+}
+
+.banner_works .desc a{
+	text-decoration: none;
+	color: #eb65a2;
+	font-weight: bolder;
+}
+
+.banner_works .desc a:hover{
+	text-decoration: none;
+	color: #c71868;
+	font-weight: bolder;
 }
 
 
