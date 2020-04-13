@@ -175,7 +175,13 @@ section:last-child {
 	#headshot {
 		display: none;
 	}
-	
+
+	#name h1 {
+		font-size: 20px;
+		line-height: 22px;
+		padding-top: 50px;
+	}
+
 	#name, #contactDetails {
 		float: none;
 		width: 100%;
