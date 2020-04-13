@@ -458,16 +458,7 @@ a:hover{
 	 @media(max-width: 768px) {
 
 		.social{
-			width: 100%;
-			margin: 0 auto;
-			padding-bottom: 40px;
-			display: table;
-		}
-
-
-		.social_icon {	
-			width: 50%;
-			margin: 0 auto;
+			display: none;
 		}
 
 		.intro{
