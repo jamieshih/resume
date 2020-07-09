@@ -581,8 +581,8 @@
 .notice_text{
 	padding-top: 50px;
 	color: #fff;
-	font-size: 16px;
-	line-height: 40px;
+	font-size: 12px;
+	line-height: 26px;
 }
 
 .notice_text li{
@@ -622,6 +622,18 @@
 			font-size: 14px;
 			line-height: 30px;
 		}
+
+		.notice_text span a{
+			color: #000;
+			border-radius: 100px;
+			background: #f0c000;
+			border:2px solid #000;
+			padding: 2px 10px;
+			font-weight: bold;
+			margin-left: 10px;
+			word-break: keep-all;
+		}
+
 		.notice_text li{
 			list-style-type: none;
 			padding-left: 0px;
