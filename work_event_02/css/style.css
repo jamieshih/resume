@@ -227,8 +227,8 @@ map :focus{outline:none}
 }
 
 .content_01 li{
-	width: 26%;
-	margin:  10px 30px;
+	width: 275px;
+	margin:  10px 22px;
 	display: inline-block;
 	float: left;
 }
