@@ -462,7 +462,7 @@
 		}
 
 		.con01 .logoimg img{
-			padding-top: 0px;
+			padding-top: 10px;
 			margin: 0 auto;	
 			display: block;
 			width: 30%;
@@ -493,13 +493,13 @@
 		.con01 .item_text{
 			background-color: #000;
 			color: #fff;
-		  font-size: 20px;
+		  font-size: 14px;
 		  text-align: center;
 		  width: 100%;
 		  display: flex;
 		  align-items: center;
 		  justify-content: center;
-		  padding: 8px 0px;
+		  padding: 10px 0px;
 		  margin: 0;
 		 	text-decoration: none; 
 		}
@@ -888,8 +888,9 @@
 		.social span {
 		    display: block;
 		    color: #000;
-		    font-size: 20px;
-		    line-height: 50px;
+		    font-size: 14px;
+		    line-height: 40px;
+		    font-weight: bold;
 		}
 
 
@@ -994,9 +995,9 @@
 		    border-radius: 0px;
 		    background: #000;
 		    color: #fff;
-		    font-size: 20px;
-		    height: 60px;
-		    line-height: 60px;
+		    font-size: 14px;
+		    height: 40px;
+		    line-height: 40px;
 		    position: relative;
 		    -webkit-transition: .3s;
 		    transition: .3s;
