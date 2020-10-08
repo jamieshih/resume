@@ -44,7 +44,7 @@ html{
 	display:block;
 	float:left;
 	width:100%;
-	min-height:auto;
+	min-height:210px;
 	background-image:url(../images/banner_bg.png);
 	background-repeat:no-repeat;
 	background-size:100%;
