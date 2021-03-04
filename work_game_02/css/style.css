@@ -1,0 +1,422 @@
+@charset "utf-8";
+/* CSS Document */
+	
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+  
+}
+
+map *:focus{
+outline:none; 
+}
+
+img{ display:block; border:0;}
+
+ol,ul,li{
+ list-style:none;
+}
+
+
+.clearfix::after {
+    clear: both;
+
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+  display:inline-block;
+    
+}
+html[xmlns] .clearfix {
+    display: block;
+}
+
+a{
+	transition: 0.5s all ease;
+	text-decoration:none;
+}
+/**/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family:"微軟正黑體","Microsoft JhengHei",Helvetica;
+}
+
+
+#wrapper {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: -50px;	
+}
+
+
+#header{
+    height: 68px;
+    background-color: #0b1722;
+    width: 100%;
+    z-index: 99;
+    border-bottom: 1px solid #666;
+	box-shadow: 0 0 5px rgba(0,0,0,.1);   
+}
+
+#header-content{
+	margin:0 auto; 
+	width:100%;  
+	max-width: 1100px; 
+	height:85px;
+	padding: 5px;
+}
+
+#header h1{
+	width: 250px;
+	height: 34px;
+	border: 0;
+}
+
+#header h1 a{
+	display:block;
+}
+#header h1 img{
+	width:100%;
+	padding: 20px;
+}
+
+.kv {
+	background:url(../images/kv_bg.jpg) no-repeat center top;
+	background-size: cover;
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+.content{
+	width:1200px;
+	margin:0 auto;
+}
+
+
+.text{
+  float: left;
+  padding: 200px 0 0 40px;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.phone img{
+	padding: 100px 0 0 0;
+    position: relative;
+    z-index: 2;
+    left: -5%;
+}
+
+.scroll{
+    display: block;
+    position: relative;
+    top: -170px;
+    left: 360px;
+    width: 54px;
+	
+}
+
+.scroll:before{
+    content: '';
+    -moz-animation: scroll 1s linear infinite;
+    -webkit-animation: scroll 1s linear infinite;
+    animation: scroll 1s linear infinite;
+    background-color: #FFF;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 2px;
+    height: 8px;	
+}
+
+@keyframes scroll{0%{top:8px}100%{top:15px}}
+
+
+.process{
+	background:url(../images/bg.jpg) no-repeat center top;
+	background-size: cover;
+	width:100%;
+	height:auto;
+	position:relative;
+	display: table;
+}
+
+.text{
+  float: left;
+  padding: 200px 0 0 0px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.title img{
+	display:block;	
+	width:1000px;
+	height:150px;
+	margin:0 auto;
+	padding:50px 0 0 0;
+}
+
+.m_title img{
+	display:none;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	padding:50px 0;
+}
+
+.content{
+	display: table;
+	margin: 0 auto;
+}
+
+.porcess{
+	width: 1200px;
+	position: relative;
+	display: table;
+	margin: 0 auto;
+}
+
+.process ul{
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.process li{
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	margin-top:10px;
+	margin-bottom:30px;
+	position: relative;
+}
+
+.process .go{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	margin-top:0px;
+	margin-bottom:50px;
+	animation: heartbeat-play 0.8s linear, heartbeat-play 3s ease-in-out infinite alternate;  
+}
+
+
+.heartbeat-play {
+	-webkit-animation-duration: 1s;  
+	animation-duration: 1s;  
+	-webkit-animation-name: heartbeat-play;  
+	animation-name: heartbeat-play;  
+	-webkit-animation-iteration-count: infinite;    
+}
+
+	@-webkit-keyframes heartbeat-play {   
+		0%   { -webkit-transform: scale(1); transform: scale(1); filter:brightness(120%);} 
+		40%  { -webkit-transform: scale(0.95); transform: scale(0.95); filter:brightness(100%);} 
+		60%  { -webkit-transform: scale(1); transform: scale(1); filter:brightness(120%);} 
+		80%  { -webkit-transform: scale(0.95); transform: scale(0.95); filter:brightness(100%);}
+		100% { -webkit-transform: scale(1); transform: scale(1); filter:brightness(120%);} 
+		}
+	@keyframes heartbeat-play { 
+		0%   { -webkit-transform: scale(1); transform: scale(1); filter:brightness(120%);} 
+		40%  { -webkit-transform: scale(0.95); transform: scale(0.95); filter:brightness(100%);} 
+		60%  { -webkit-transform: scale(1); transform: scale(1); filter:brightness(120%);} 
+		80%  { -webkit-transform: scale(0.95); transform: scale(0.95); filter:brightness(100%);}
+		100% { -webkit-transform: scale(1); transform: scale(1); filter:brightness(120%);} 
+	}
+
+.process li img{
+	display: table;
+	margin: 0 auto;
+}
+
+
+.arrow01{
+	position: relative;
+	display: table;
+	z-index: 1;
+	top: 270px;
+  left: 450px;
+}
+
+.arrow02{
+	position: relative;
+	display: table;
+	z-index: 1;
+	top: 380px;
+  left: 450px;
+}
+
+.arrow03{
+	position: relative;
+	z-index: 1;
+  top: 840px;
+  left: 800px;
+}
+
+.arrow04{
+	position: relative;
+  z-index: 1;
+  top: 1070px;
+  left: 620px;
+}
+
+.arrow05{
+	position: relative;
+  z-index: 1;
+  top: 1320px;
+  left: 800px;
+}
+
+
+.arrow06{
+	position: relative;
+  z-index: 1;
+	top: 1600px;
+  left: 1080px;
+}
+
+#footer{
+    background-color: #000;
+    height: 100px;
+    line-height: 50px;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+
+#footer ul{
+	margin:0 auto;
+    text-align: center;
+}
+
+#footer li{
+	font-size:15px;
+	color:#FFF;		
+	display:inline-block;
+	margin:0 auto;
+	line-height:20px;
+	border-right: solid 1px #fff;
+	padding:0 50px;
+}
+
+#footer li:last-child{
+	border: 0px; 
+}
+
+#footer li a{
+	font-size:15px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+#footer li a:hover{
+	font-size:15px;
+	color:#00afe1;
+	text-decoration:none;	
+}
+
+#footer p{
+	font-size:13px;
+	color:#FFF;
+    text-align: center;	
+}
+
+
+
+/* --手機版型------------------------------------- */
+
+@media screen and (max-width: 767px) {
+.content{
+	width:100%;
+	margin:0 auto;
+}
+
+.text{
+  float: left;
+  padding: 50px 0 0 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.text img{
+	width:100%;
+	float:left;
+	padding:0;	
+}
+
+.phone img{
+	margin:0  auto;
+	width:60%;	
+	padding:0;
+    left: 0;	
+}
+
+.process li{
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.process li img{
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+}
+
+
+.process .go img{
+	width: 70%;
+}
+
+.scroll{
+	display:none;
+}
+
+.title img{
+	display:none;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	padding:50px 0;
+}
+
+
+.m_title img{
+	display:block;
+	width:80%;
+	height:auto;
+	margin:0 auto;
+	padding:20px 0 0 0;
+}
+
+
+
+#footer li{
+	font-size:15px;
+	color:#FFF;		
+	display:inline-block;
+	margin:0 auto;
+	line-height:20px;
+	border-right: solid 1px #fff;
+	padding:0 20px;
+}
+
+
+
+.arrow01 , .arrow02 , .arrow03 , .arrow04 , .arrow05 , .arrow06{
+	display: none;
+}
