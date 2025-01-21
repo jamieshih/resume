@@ -136,6 +136,7 @@ a:hover{
 	float: left;
 	text-decoration-line: none;
 	padding-right: 30px;
+	border-bottom: #fff solid 1px;
 }
 
 .nav li a{
@@ -194,6 +195,7 @@ a:hover{
 	margin: 0 auto;
 	display: table;
 	clear: both;
+	padding-bottom: 80px;
 }
 
 
@@ -201,11 +203,11 @@ a:hover{
 	display: block;
 	width: 70%;
 	color: #333333;
-    font-size: 15px;
+    font-size: 16px;
     margin: 0 auto;
     text-align: left;
 	text-decoration:none;
-	padding:80px 0 10px 0;
+	padding:80px 0 0px 0;
 }
 
 .works  h4 span{
@@ -214,11 +216,18 @@ a:hover{
 	padding-left: 30px;
 }
 
+.works h4 p{
+	display: block;
+	padding-top: 10px; 
+	padding-bottom:3px;
+	padding-left: 30px;
+}
+
 .works  ul{
 	width: 100%;
 	display: table;
 	margin: 1%;
-	padding:1% 15%;
+	padding:0% 15%;
 }
 
 .works li{
@@ -243,10 +252,10 @@ a:hover{
 
 .works .text{
 	font-size: 14px;
-	background: #ebebeb;
+	background: #f0f0f0;
 	text-align: center;
 	line-height: 36px;
-	color: #333333;
+	color: #484848;
 	overflow:hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis; 
@@ -261,6 +270,51 @@ a:hover{
     text-decoration: none;
 }
 
+
+.works_web{
+	width: 100%;
+	margin: 0 auto;
+	display: table;
+	clear: both;
+	padding-bottom: 80px;
+}
+
+.works_web ul{
+	width: 100%;
+	display: table;
+	margin: 1%;
+	padding:0% 18%;
+}
+
+
+.works_web h4{
+	display: block;
+	width: 70%;
+	color: #333333;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: left;
+	text-decoration:none;
+	padding:80px 0 0px 0;
+}
+
+.works_web  h4 span{
+	display: inline-block; 
+	padding-bottom:3px;
+	padding-left: 30px;
+}
+
+.works_web h4 p{
+	display: block;
+	padding-top: 10px; 
+	padding-bottom:3px;
+	padding-left: 30px;
+}
+
+.works_web img{
+	display: block;
+	margin: 0 auto;
+}
 
 	 @media(max-width: 768px) {
 		.works{
@@ -334,6 +388,32 @@ a:hover{
 		.works-overlay a{
 		    text-decoration: none;
 		}
+
+
+		.works_web h4{
+			display: block;
+			width: 100%;
+			color: #333333;
+		    font-size: 15px;
+		    margin: 0 auto;
+		    text-align: left;
+			text-decoration:none;
+			padding:20px 0 10px 0;
+		}
+
+		.works_web h4 span{
+			display: inline-block; 
+			padding-bottom:3px;
+			padding-left: 30px;
+		}
+
+		.works_web  ul{
+			width: 100%;
+			display: table;
+			margin: 0 auto;
+			padding:1% 1%;
+			}
+
 
 	}
 
