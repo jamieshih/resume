@@ -336,10 +336,17 @@ a:hover{
 			padding:20px 0 10px 0;
 		}
 
+		.works h4 p{
+			display: block;
+			padding-top: 10px; 
+			padding-bottom:3px;
+			padding-left: 10px;
+		}
+
 		.works  h4 span{
 			display: inline-block; 
 			padding-bottom:3px;
-			padding-left: 30px;
+			padding-left: 10px;
 		}
 
 		.works  ul{

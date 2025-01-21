@@ -179,7 +179,7 @@ section:last-child {
 	#name h1 {
 		font-size: 20px;
 		line-height: 22px;
-		padding-top: 50px;
+		margin-top: 100px;
 	}
 
 	#name, #contactDetails {
