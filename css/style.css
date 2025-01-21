@@ -250,6 +250,7 @@ a:hover{
     transition-duration: 1s;	
 }
 
+
 .works .text{
 	font-size: 14px;
 	background: #f0f0f0;
@@ -270,6 +271,28 @@ a:hover{
     text-decoration: none;
 }
 
+.more {
+	display: inline-flex;
+}
+
+.more a{
+	font-size: 13px;
+	background: #000;
+	color:#fff;
+	border-radius: 20px;
+	text-align: center;
+	float: left;
+	font-size: 13px;
+	padding: 5px 10px;
+	text-decoration:none;
+	margin-left: 10px;
+}
+
+.more a:hover{
+	font-size: 13px;
+	background: #d6465d;
+	color:#fff;
+}
 
 .works_web{
 	width: 100%;
