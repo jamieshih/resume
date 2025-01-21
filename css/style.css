@@ -136,7 +136,6 @@ a:hover{
 	float: left;
 	text-decoration-line: none;
 	padding-right: 30px;
-	border-bottom: #fff solid 1px;
 }
 
 .nav li a{
@@ -182,7 +181,7 @@ a:hover{
 		}
 
 		.nav li a:last-child {
-			border-right: 1px solid #d4d4d4;
+			/*border-right: 1px solid #d4d4d4;*/
 		}
 	}
 
@@ -359,6 +358,7 @@ a:hover{
 			padding:20px 0 10px 0;
 		}
 
+
 		.works h4 p{
 			display: block;
 			padding-top: 10px; 
@@ -431,10 +431,17 @@ a:hover{
 			padding:20px 0 10px 0;
 		}
 
+		.works_web h4 p{
+			display: block;
+			padding-top: 10px; 
+			padding-bottom:3px;
+			padding-left: 10px;
+		}
+
 		.works_web h4 span{
 			display: inline-block; 
 			padding-bottom:3px;
-			padding-left: 30px;
+			padding-left: 10px;
 		}
 
 		.works_web  ul{
