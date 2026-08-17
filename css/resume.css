@@ -182,7 +182,7 @@ section:last-child {
 	#name h1 {
 		font-size: 14px;
 		line-height: 36px;
-		margin-top: 50px;
+		margin-top: 0px;
 		padding-left: 0px;
 	}
 
@@ -240,7 +240,7 @@ section:last-child {
 	#name h1 {
 		line-height: 2em;
 		margin-bottom: 4px;
-		padding-top: 50px;
+		padding-top: 30px;
 	}
 }
 
